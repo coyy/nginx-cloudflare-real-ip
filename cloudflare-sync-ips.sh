@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CLOUDFLARE_FILE_PATH=${1:-/etc/nginx/sites-enabled/cloudflare.conf}
+CLOUDFLARE_FILE_PATH=${1:-/etc/nginx/config.d/cloudflare.conf}
 
 echo "#Cloudflare" > $CLOUDFLARE_FILE_PATH;
 echo "" >> $CLOUDFLARE_FILE_PATH;
